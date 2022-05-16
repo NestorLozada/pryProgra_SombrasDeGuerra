@@ -13,10 +13,34 @@ public class BarraVida : MonoBehaviour
     
     void Update()
     {
-        if(vidaActual > 50)
+        /*if(vidaActual > 50)
         {
             vidaActual = vidaActual - 1;
         }
         imagenVida.fillAmount = vidaActual /vidaMaxima;
+        */
+        if( Input.GetKeyDown (KeyCode.R))
+        {
+            Healing (10f);
+        }
+
+         if( Input.GetKeyDown (KeyCode.T))
+        {
+            Damage (10f);
+        }
+        
+    }
+
+    public void Damage (float damgePoints){
+        vidaActual = damgePoints;
+        imagenVida.fillAmount = vidaActual/100;
+    }
+
+    public void Healing (float healPoints)
+    {
+        vidaActual += healPoints;
+        vidaActual =   Mathf.Clamp ( vidaActual,0,100);  
+        imagenVida.fillAmount = vidaActual / 100; 
+
     }
 }
