@@ -8,6 +8,10 @@ public class Linterna : MonoBehaviour
     GameObject Flashligh_Light; 
     private bool isOn = false;
 
+    
+     float xrotation = 0.0f;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -31,5 +35,6 @@ public class Linterna : MonoBehaviour
                 isOn = false;
             }
         }    
+        
     }
 }
