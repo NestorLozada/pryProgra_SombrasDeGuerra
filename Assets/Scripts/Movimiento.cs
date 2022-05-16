@@ -6,9 +6,9 @@ public class Movimiento : MonoBehaviour
 {
     
     public CharacterController controller;
-    public float speed = 10f*500;
-    public float gravity = -9.8f*500;
-    public float jumpHeight = 3*1000;
+    public float speed = 10f;
+    public float gravity = -9.8f;
+    public float jumpHeight = 3;
 
     public Transform groundCheck;
     public float groundDistance = 0.3f;
