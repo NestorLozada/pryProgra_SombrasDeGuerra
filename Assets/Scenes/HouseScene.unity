@@ -1545,7 +1545,7 @@ GameObject:
   - component: {fileID: 238921125}
   m_Layer: 0
   m_Name: Door (5)
-  m_TagString: Untagged
+  m_TagString: Door
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5156,7 +5156,7 @@ GameObject:
   - component: {fileID: 697229131}
   m_Layer: 0
   m_Name: DoorVertical (2)
-  m_TagString: Untagged
+  m_TagString: Door
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7061,7 +7061,7 @@ GameObject:
   - component: {fileID: 938164232}
   m_Layer: 0
   m_Name: Door (4)
-  m_TagString: Untagged
+  m_TagString: Door
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7622,6 +7622,7 @@ GameObject:
   - component: {fileID: 963194227}
   - component: {fileID: 963194226}
   - component: {fileID: 963194229}
+  - component: {fileID: 963194230}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -7709,6 +7710,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mouseSen: 80
   playerbody: {fileID: 608111202}
+--- !u!114 &963194230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50488df7dac63e34a8a1b72feab2ff47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  distancia: 3000
 --- !u!1 &968712183
 GameObject:
   m_ObjectHideFlags: 0
@@ -9724,7 +9738,7 @@ GameObject:
   - component: {fileID: 1361440771}
   m_Layer: 0
   m_Name: DoorVertical (1)
-  m_TagString: Untagged
+  m_TagString: Door
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11942,7 +11956,7 @@ GameObject:
   - component: {fileID: 1611176531}
   m_Layer: 0
   m_Name: Door (6)
-  m_TagString: Untagged
+  m_TagString: Door
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14739,7 +14753,7 @@ GameObject:
   - component: {fileID: 2070498127}
   m_Layer: 0
   m_Name: DoorVertical
-  m_TagString: Untagged
+  m_TagString: Door
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
