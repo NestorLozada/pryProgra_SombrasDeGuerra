@@ -2501,7 +2501,7 @@ Light:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 7
   m_Range: 188.37
-  m_SpotAngle: 50
+  m_SpotAngle: 33.4
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
@@ -4358,9 +4358,13 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: pb_Mesh27146
 =======
   m_Name: pb_Mesh36334
+=======
+  m_Name: pb_Mesh-78820
+>>>>>>> parent of 23589d5 (Falso Commit)
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -8496,7 +8500,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b948010038404b34dbcf76f4e6b31bab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mouseSen: 1000
+  mouseSen: 1300
   playerbody: {fileID: 608111202}
 --- !u!114 &963194230
 MonoBehaviour:
