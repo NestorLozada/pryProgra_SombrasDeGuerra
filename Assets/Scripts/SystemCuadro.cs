@@ -4,9 +4,9 @@ using UnityEngine;
 using UnityEngine.UI;
 
 
-public class SysCuadro : MonoBehaviour
+public class SystemCuadro : MonoBehaviour
 {
-    public bool estaEncendido=true;
+    public bool estaEncendido=false;
     public GameObject imgtxt;
    public void cambio(){
        estaEncendido=!estaEncendido;
@@ -17,11 +17,10 @@ public class SysCuadro : MonoBehaviour
     void Update()
     {
        if (estaEncendido){
-        imgtxt.SetActive(true);
+        imgtxt.SetActive(false);
       
     }else{
-        imgtxt.SetActive(false);
+        imgtxt.SetActive(true);
     }
     }
 }
-
