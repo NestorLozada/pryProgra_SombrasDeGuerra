@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.45112854, g: 0.5009198, b: 0.5739566, a: 1}
+  m_IndirectSpecularColor: {r: 0.019340103, g: 0.010463434, b: 0.0027993815, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3158,8 +3158,8 @@ Light:
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 7
-  m_Range: 188.37
-  m_SpotAngle: 33.4
+  m_Range: 4.998511
+  m_SpotAngle: 79
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
@@ -3199,7 +3199,7 @@ Light:
   m_Lightmapping: 4
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 1
+  m_BounceIntensity: 2
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
@@ -5858,7 +5858,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh65448
+  m_Name: pb_Mesh98070
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -6105,7 +6105,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh65872
+  m_Name: pb_Mesh98534
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -7241,7 +7241,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh66502
+  m_Name: pb_Mesh99180
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -9114,8 +9114,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -177, y: 222}
-  m_SizeDelta: {x: -440.8899, y: 25.9583}
+  m_AnchoredPosition: {x: -229.75409, y: 228.31818}
+  m_SizeDelta: {x: -546.3981, y: 13.322}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &778870759
 MonoBehaviour:
@@ -11514,7 +11514,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.048, y: 0.517, z: 0.05}
+  m_LocalPosition: {x: -0.048, y: 0.09, z: 0.05}
   m_LocalScale: {x: 1.4888477, y: 0.10058372, z: 5.015743}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -11534,7 +11534,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b948010038404b34dbcf76f4e6b31bab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mouseSen: 1300
+  mouseSen: 150
   playerbody: {fileID: 608111202}
 --- !u!114 &963194230
 MonoBehaviour:
@@ -12258,7 +12258,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-30760
+  m_Name: pb_Mesh-81424
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -15557,7 +15557,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh66548
+  m_Name: pb_Mesh99226
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -18695,7 +18695,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh65998
+  m_Name: pb_Mesh98666
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -21210,7 +21210,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh65630
+  m_Name: pb_Mesh98284
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -21826,7 +21826,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh66140
+  m_Name: pb_Mesh98818
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -23989,7 +23989,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!108 &2025008466
 Light:
   m_ObjectHideFlags: 0
