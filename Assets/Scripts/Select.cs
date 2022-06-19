@@ -5,6 +5,7 @@ using UnityEngine;
 public class Select : MonoBehaviour
 {
     public float distancia= 3f;
+    public GameObject n;
 
     // Update is called once per frame
     void Update()
@@ -19,7 +20,19 @@ public class Select : MonoBehaviour
                     hit.collider.transform.GetComponent<SystemDoor>().ChangeDoorState();
                 }
             }
+            if( hit.collider.tag != "Cuadro")
+            {   
+                
+                n.SetActive(true);
+                if(Input.GetKeyDown(KeyCode.N)) {
+                     hit.collider.GetComponent<SystemCuadro>().cambio();  
+                    
+                }               
+                    
+            }
+            
         }
+       
         
     }
 }
