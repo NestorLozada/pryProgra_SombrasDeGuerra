@@ -24,7 +24,7 @@ public class Select : MonoBehaviour
             {   
                 
                
-                if(Input.GetKeyDown(KeyCode.N)) {
+                if(Input.GetKeyDown(KeyCode.C)) {
                      hit.collider.GetComponent<SystemCuadro>().cambio();  
                 }               
                     
