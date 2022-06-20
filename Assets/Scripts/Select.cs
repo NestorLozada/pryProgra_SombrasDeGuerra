@@ -20,14 +20,15 @@ public class Select : MonoBehaviour
                     hit.collider.transform.GetComponent<SystemDoor>().ChangeDoorState();
                 }
             }
-            if( hit.collider.tag != "Cuadro")
+            if( hit.collider.tag != "CuadroGeneral")
             {   
-                
-               
-                if(Input.GetKeyDown(KeyCode.C)) {
+
+              if(Input.GetKeyDown(KeyCode.C)) {
                      hit.collider.GetComponent<SystemCuadro>().cambio();  
-                }               
+                }           
                     
+            }else{
+                return; 
             }
             
         }
