@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Door
   - Drugs
+  - TriggerDoor
   layers:
   - Default
   - TransparentFX
