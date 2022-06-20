@@ -5,7 +5,7 @@ using UnityEngine;
 public class CamaraLook : MonoBehaviour
 {
     
-    public float mouseSen = 1300.0f;
+    public float mouseSen = 1000.0f;
     public Transform playerbody;
     float xrotation = 0.0f;
 
