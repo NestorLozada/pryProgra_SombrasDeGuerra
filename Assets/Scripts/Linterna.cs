@@ -7,11 +7,7 @@ public class Linterna : MonoBehaviour
     [SerializeField]
     GameObject Flashligh_Light; 
     private bool isOn = false;
-
     
-     float xrotation = 0.0f;
-
-
     // Start is called before the first frame update
     void Start()
     {
