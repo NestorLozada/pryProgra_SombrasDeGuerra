@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2529,6 +2529,8 @@ MonoBehaviour:
   doorOpenAngel: 95
   doorCloseAngle: 0
   smooth: 3
+  openDoor: {fileID: 0}
+  closeDoor: {fileID: 0}
 --- !u!64 &208462215
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2984,6 +2986,8 @@ MonoBehaviour:
   doorOpenAngel: 95
   doorCloseAngle: 0
   smooth: 3
+  openDoor: {fileID: 0}
+  closeDoor: {fileID: 0}
 --- !u!65 &239919687
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6242,7 +6246,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh81660
+  m_Name: pb_Mesh131682
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -6454,6 +6458,8 @@ MonoBehaviour:
   doorOpenAngel: 95
   doorCloseAngle: 0
   smooth: 3
+  openDoor: {fileID: 0}
+  closeDoor: {fileID: 0}
 --- !u!65 &441425746
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6973,7 +6979,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh82882
+  m_Name: pb_Mesh132884
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -7597,7 +7603,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh81906
+  m_Name: pb_Mesh131918
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -10634,7 +10640,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh82494
+  m_Name: pb_Mesh132496
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -11023,7 +11029,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 14
   m_CollisionDetection: 0
 --- !u!43 &731685648
 Mesh:
@@ -11031,7 +11037,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh81642
+  m_Name: pb_Mesh131664
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -12481,7 +12487,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh82546
+  m_Name: pb_Mesh132548
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -15107,6 +15113,8 @@ MonoBehaviour:
   doorOpenAngel: 95
   doorCloseAngle: 0
   smooth: 3
+  openDoor: {fileID: 0}
+  closeDoor: {fileID: 0}
 --- !u!64 &1053874976
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15970,6 +15978,8 @@ MonoBehaviour:
   doorOpenAngel: 95
   doorCloseAngle: 0
   smooth: 3
+  openDoor: {fileID: 0}
+  closeDoor: {fileID: 0}
 --- !u!65 &1086852638
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16489,7 +16499,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-28298
+  m_Name: pb_Mesh-44702
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -18603,6 +18613,8 @@ MonoBehaviour:
   doorOpenAngel: 95
   doorCloseAngle: 0
   smooth: 3
+  openDoor: {fileID: 0}
+  closeDoor: {fileID: 0}
 --- !u!65 &1341871183
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19474,7 +19486,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 456193820297417928, guid: 7a7e93c51a922554ea8a434bdb2bd9ca, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.807935
+      value: 1.4128754
       objectReference: {fileID: 0}
     - target: {fileID: 456193820297417928, guid: 7a7e93c51a922554ea8a434bdb2bd9ca, type: 3}
       propertyPath: m_LocalPosition.y
@@ -19482,23 +19494,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 456193820297417928, guid: 7a7e93c51a922554ea8a434bdb2bd9ca, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -188.70787
+      value: -177.18503
       objectReference: {fileID: 0}
     - target: {fileID: 456193820297417928, guid: 7a7e93c51a922554ea8a434bdb2bd9ca, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: -0.43999663
       objectReference: {fileID: 0}
     - target: {fileID: 456193820297417928, guid: 7a7e93c51a922554ea8a434bdb2bd9ca, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 456193820297417928, guid: 7a7e93c51a922554ea8a434bdb2bd9ca, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: 0.89799947
       objectReference: {fileID: 0}
     - target: {fileID: 456193820297417928, guid: 7a7e93c51a922554ea8a434bdb2bd9ca, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 456193820297417928, guid: 7a7e93c51a922554ea8a434bdb2bd9ca, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -19506,7 +19518,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 456193820297417928, guid: 7a7e93c51a922554ea8a434bdb2bd9ca, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 232.207
       objectReference: {fileID: 0}
     - target: {fileID: 456193820297417928, guid: 7a7e93c51a922554ea8a434bdb2bd9ca, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -19524,9 +19536,17 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 456193820352607192, guid: 7a7e93c51a922554ea8a434bdb2bd9ca, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 456193820352607195, guid: 7a7e93c51a922554ea8a434bdb2bd9ca, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 456193820352607199, guid: 7a7e93c51a922554ea8a434bdb2bd9ca, type: 3}
+      propertyPath: mouseSen
+      value: 600
       objectReference: {fileID: 0}
     - target: {fileID: 456193821001418649, guid: 7a7e93c51a922554ea8a434bdb2bd9ca, type: 3}
       propertyPath: m_Layer
@@ -20963,6 +20983,8 @@ MonoBehaviour:
   doorOpenAngel: 95
   doorCloseAngle: 0
   smooth: 3
+  openDoor: {fileID: 0}
+  closeDoor: {fileID: 0}
 --- !u!65 &1529947623
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21896,6 +21918,134 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1580535160}
   m_Mesh: {fileID: -3292925553009838691, guid: da5bea48dcaa24f4dbcc4b6ea6c8749b, type: 3}
+--- !u!1 &1594562336
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1594562338}
+  - component: {fileID: 1594562339}
+  m_Layer: 0
+  m_Name: Cicada
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1594562338
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1594562336}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 9.01, y: 142.94, z: -223}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1594562339
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1594562336}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 519c5e8d421718e4a93ba8233d1f5371, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.16
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 0.1
+  MaxDistance: 48
+  Pan2D: 0
+  rolloffMode: 1
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.95
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1597028138
 GameObject:
   m_ObjectHideFlags: 0
@@ -23723,7 +23873,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh82720
+  m_Name: pb_Mesh132722
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
