@@ -10,17 +10,18 @@ public class SystemCuadro : MonoBehaviour
     public GameObject imgtxt;
    public void cambio(){
        estaEncendido=!estaEncendido;
+       imgtxt.SetActive(estaEncendido);
    }
    
    
     
-    void Update()
-    {
-       if (estaEncendido){
-        imgtxt.SetActive(false);
+    // void Update()
+    // {
+    //    if (estaEncendido){
+    //     imgtxt.SetActive(true);
       
-    }else{
-        imgtxt.SetActive(true);
-    }
-    }
+    // }else{
+    //     imgtxt.SetActive(false);
+    // }
+    // }
 }

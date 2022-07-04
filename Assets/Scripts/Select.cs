@@ -20,7 +20,7 @@ public class Select : MonoBehaviour
                     hit.collider.transform.GetComponent<SystemDoor>().ChangeDoorState();
                 }
             }
-            if( hit.collider.tag != "CuadroGeneral")
+            if( hit.collider.tag == "CuadroTag")
             {   
 
               if(Input.GetKeyDown(KeyCode.C)) {
